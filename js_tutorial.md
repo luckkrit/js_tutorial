@@ -25,6 +25,10 @@ comark: true
 # Javascript Tutorial
 
 ---
+src: ./pages/events.md
+---
+
+---
 src: ./pages/timer_interval.md
 ---
 
