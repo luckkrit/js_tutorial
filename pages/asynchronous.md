@@ -122,6 +122,11 @@ console.log("4: end");
 
 ## Reference
 
-- https://33jsconcepts.com/concepts/event-loop
-- https://master.dev/tutorials/lydia-hallie/event-loop/
+- อธิบายทฤษฎี
+  - https://33jsconcepts.com/concepts/event-loop
+  - https://master.dev/tutorials/lydia-hallie/event-loop/
 
+- มีตัวอย่างการทำงาน
+  - https://www.jsv9000.app/
+  - https://js-visualizer.gouranga.eu.org/
+  - https://www.jsvisualizer.bytefront.dev/
