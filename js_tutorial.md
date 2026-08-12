@@ -6,7 +6,7 @@ base: /js_tutorial/
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: Javascript Tutorial
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -24,6 +24,14 @@ comark: true
 ---
 
 # Javascript Tutorial
+
+---
+
+<Toc minDepth="1" maxDepth="3" columns="2" />
+
+---
+src: ./pages/forms.md
+---
 
 ---
 src: ./pages/events.md

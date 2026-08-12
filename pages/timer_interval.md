@@ -6,7 +6,7 @@ layout: section
 
 ---
 
-## Timeout
+### Timeout
 
 - Set timeout
 
@@ -34,7 +34,7 @@ clearTimeout(timerId);
 
 --- 
 
-## Interval
+### Interval
 
 - Set interval
 
@@ -60,7 +60,7 @@ clearTimeout(timerId);
 
 --- 
 
-## Event Emitter
+### Event Emitter
 
 ```js
 class EventEmitter {

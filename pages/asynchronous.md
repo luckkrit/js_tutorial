@@ -6,7 +6,7 @@ layout: section
 
 ---
 
-## Asynchronous
+### Asynchronous Types
 
 - Callback
 - Promise
@@ -14,7 +14,7 @@ layout: section
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js {monaco-run} {autorun:false}
 console.log('A');
@@ -31,7 +31,7 @@ console.log('C');
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js
 getUser(id, (user) => {
@@ -48,7 +48,7 @@ getUser(id, (user) => {
 
 ---
 
-## Promise
+### Promise
 
 ```js
 getUser(id)
@@ -66,7 +66,7 @@ getUser(id)
 
 ---
 
-## Async/Await syntax
+### Async/Await syntax
 
 ```js
 async function loadData() {
@@ -90,7 +90,7 @@ async function loadData() {
 
 ---
 
-## Event Loop
+### Event Loop
 
 - JavaScript solves this by delegating long-running tasks to the browser (or Node.js), which handles them in the background. Functions like setTimeout() don’t block:
 
@@ -109,7 +109,7 @@ console.log('End');
 
 ---
 
-## Javascript Runtime
+### Javascript Runtime
 
 ![Javascript Runtime](/images/asynchronous/javascript-runtime.png){.w-1/2,.mx-auto}
 
@@ -117,7 +117,7 @@ console.log('End');
 
 ---
 
-## Javascript Runtime
+### Javascript Runtime
 
 - Call Stack — จัดการ execution ทีละ context, task ที่รันนานจะบล็อก task อื่นหมด (single-threaded)
 - Web APIs — ฟีเจอร์ที่ browser ให้มา (ไม่ใช่ core JS) เช่น fetch, setTimeout, Geolocation — ใช้ offload งานที่ใช้เวลานานออกจาก call stack
@@ -127,7 +127,7 @@ console.log('End');
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js {monaco-run} {autorun:false}
 console.log("1: start");
@@ -144,7 +144,7 @@ console.log("4: end");
 - https://www.jsvisualizer.bytefront.dev/?share=JTdCJTIyY29kZSUyMiUzQSUyMmNvbnNvbGUubG9nKCU1QyUyMjElM0ElMjBzdGFydCU1QyUyMiklM0IlNUNuJTVDbnNldFRpbWVvdXQoKCklMjAlM0QlM0UlMjBjb25zb2xlLmxvZyglNUMlMjIyJTNBJTIwdGltZW91dCU1QyUyMiklMkMlMjAwKSUzQiU1Q24lNUNuUHJvbWlzZS5yZXNvbHZlKCkudGhlbigoKSUyMCUzRCUzRSUyMGNvbnNvbGUubG9nKCU1QyUyMjMlM0ElMjBwcm9taXNlJTVDJTIyKSklM0IlNUNuJTVDbmNvbnNvbGUubG9nKCU1QyUyMjQlM0ElMjBlbmQlNUMlMjIpJTNCJTIyJTJDJTIyYnJlYWtwb2ludHMlMjIlM0ElNUIlNUQlN0Q=
 ---
 
-## What is the result?
+### What is the result?
 
 ```js {monaco-run}{autorun:false}
 // แบบเดิม: callback-based
@@ -171,7 +171,7 @@ console.log('นอก main ยังทำงานได้ต่อ เพร
 
 ---
 
-## What is the result?
+### What is the result?
 
 - ตัวอย่างนี้ใช้กับ jsv9000.app ได้ แต่ต้องไม่มีอักษรไทย และใช้ async/await ไม่ได้
 
@@ -193,7 +193,7 @@ https://www.jsv9000.app/?code=Y29uc29sZS5sb2coIjE6IHN0YXJ0Iik7CgpmdW5jdGlvbiBmb2
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js
 
@@ -214,7 +214,7 @@ setTimeout(() => console.log("this will NEVER run"), 0);
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js {monaco-run}{autorun:false}
 console.log("1");
@@ -235,7 +235,7 @@ console.log("5");
 
 ---
 
-## What is the result?
+### What is the result?
 
 ```js {monaco-run}{autorun:false}
 console.log("1");
@@ -256,7 +256,7 @@ console.log("5");
 ```
 ---
 
-## Reference
+### Reference
 
 - อธิบายทฤษฎี
   - https://33jsconcepts.com/concepts/event-loop
