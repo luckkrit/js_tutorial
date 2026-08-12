@@ -32,7 +32,7 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build -- js_tutorial.md --base /${{github.event.repository.name}}/
+        run: nr build -- js_tutorial.md --base /${{github.event.repository.name}}/js_tutorial
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
