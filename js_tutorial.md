@@ -44,3 +44,7 @@ src: ./pages/timer_interval.md
 ---
 src: ./pages/asynchronous.md
 ---
+
+---
+src: ./pages/reactivity.md
+---
