@@ -48,3 +48,7 @@ src: ./pages/asynchronous.md
 ---
 src: ./pages/reactivity.md
 ---
+
+---
+src: ./pages/virtual_dom.md
+---
