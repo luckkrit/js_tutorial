@@ -81,3 +81,27 @@ const state = new Proxy({ price: 100 }, {
   project="web-static-html-4m8kxmfe"
   file="reactivity/proxy2.html"
 />
+
+---
+
+### Proxy notify by Key
+
+- แยก listener ตาม property (เหมือน EventEmitter)
+- ปัญหาของขั้นก่อน: แจ้งทุกคนเสมอไม่สนว่าใครสนใจ key ไหน — ขั้นนี้แยกให้ตรงเป้า
+
+```js
+let listenersByKey = {};
+function subscribeTo(key, fn) {
+  (listenersByKey[key] ??= []).push(fn);
+}
+function notifyKey(key) {
+  (listenersByKey[key] || []).forEach(fn => fn());
+}
+```
+
+---
+
+<StackblitzEmbed
+  project="web-static-html-4m8kxmfe"
+  file="reactivity/proxy3.html"
+/>
