@@ -27,7 +27,7 @@ comark: true
 
 ---
 
-<Toc minDepth="1" maxDepth="3" columns="2" />
+<Toc minDepth="1" maxDepth="3" columns="3" />
 
 ---
 src: ./pages/forms.md
